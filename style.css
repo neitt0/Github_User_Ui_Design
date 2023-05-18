@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(53, 58, 86);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(118, 100, 221);
+}
+
+.user_info {
+    display: flex;
+    width: 650px;
+}
+
+.user_info img {
+    width: 150px;
+    height: 150px;
+}

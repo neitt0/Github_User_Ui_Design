@@ -1,7 +1,10 @@
 # Github_Api #
-Pure html and css copy of a AsmrProg-YT project
 
-# Project MVP (Minimum Viable Product) #
+Idea was referenced from the Github API video of ASMRProg on YouTube.
+No code was copy and pasted from the project.
+This is purely for practice using HTML, CSS, and JavaScript
+
+## Project MVP (Minimum Viable Product) ##
 
 * Basic HTML and CSS of the page
 * Add basic javascript event listener

@@ -36,6 +36,7 @@ form:focus-within {
 }
 
 .search_bar input[type="text"] {
+    margin: 7px 10px;
     border: none;
     border-radius: 5px;
     color: white;
@@ -48,11 +49,13 @@ form:focus-within {
 }
 
 .search_bar button {
+    width: auto;
+    padding: 10px;
+    margin: 7px 10px;
     background-color: rgb(80, 59, 200);
     color: white;
     border: none;
     border-radius: 5px;;
-    margin: 10px;
 }
 
 a {
@@ -62,20 +65,37 @@ a {
 .user_info {
     display: flex;
     width: 650px;
+    padding: 30px 80px 30px 10px;
 }
 
 .user_info img {
     width: 100px;
     height: 100px;
+    margin: 0px 20px;
+    background-color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .user_stats {
     background-color: rgb(76, 78, 95);
+    padding: 25px 0px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.links {
+.stats {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
 }

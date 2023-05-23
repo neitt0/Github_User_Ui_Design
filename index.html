@@ -7,9 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap"
+    rel="stylesheet"
     />
+    <script src="index.js" defer></script>
   </head>
 
   <body>
@@ -17,10 +18,10 @@
 
     <form class="search_bar">
       <input type="text" placeholder="Search for user here" />
-      <button>Search</button>
+      <div id="find">Search</div>
     </form>
 
-    <div class="user_info">
+    <div class="user_info hidden" id="user_info">
       <img src="./images/placeholderLogo.svg" alt="placeholder logo" />
       <div class="info">
         <div>
@@ -28,10 +29,7 @@
           <a href="#" class="username">@username</a>
         </div>
         <p class="bio">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          debitis minima omnis ducimus neque corrupti porro animi officiis
-          excepturi facilis temporibus inventore et fugit nostrum, doloremque
-          ipsam explicabo necessitatibus. Sit!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis minima omnis ducimus neque corrupti porro animi officiis excepturi facilis temporibus inventore et fugit nostrum, doloremque ipsam explicabo necessitatibus. Sit!
         </p>
 
         <div class="user_stats">
@@ -61,5 +59,7 @@
         </div>
       </div>
     </div>
+
+
   </body>
 </html>

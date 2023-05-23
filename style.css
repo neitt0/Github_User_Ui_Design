@@ -56,7 +56,7 @@ form:focus-within {
   outline: none;
 }
 
-.search_bar button {
+.search_bar #find {
   width: auto;
   padding: 10px;
   margin: 7px 10px;
@@ -64,6 +64,9 @@ form:focus-within {
   color: white;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 a {
@@ -112,4 +115,9 @@ a {
   padding-right: 50px;
   display: flex;
   justify-content: space-between;
+}
+
+/* JS features */
+.hidden {
+  display: none;
 }

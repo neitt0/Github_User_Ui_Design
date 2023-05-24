@@ -7,7 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: rgb(28, 45, 72);
+  background-image: radial-gradient(ellipse at bottom right, rgba(29, 46, 73, .85), rgba(29, 46, 73, .92), rgba(29, 46, 73, 1));
   color: white;
   height: 100vh;
   width: 100vw;
@@ -56,7 +56,7 @@ form:focus-within {
   outline: none;
 }
 
-.search_bar #find {
+#find {
   width: auto;
   padding: 10px;
   margin: 7px 10px;
@@ -67,6 +67,11 @@ form:focus-within {
   cursor: pointer;
   display: flex;
   align-items: center;
+  transition: 0.3s;
+}
+
+#find:hover {
+  background-color: rgb(133, 121, 144);
 }
 
 a {
